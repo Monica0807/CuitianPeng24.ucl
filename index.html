@@ -1,127 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage of Cuitian Peng</title>
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-        }
-        #leftcont {
-            width: 250px;
-            background-color: #fff;
-            color: black;
-            float: left;
-            height: 100vh;
-            padding-top: 20px;
-            border-right: 1px solid #ccc;
-        }
-        #leftimg img {
-            display: block;
-            margin: 0 auto;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-        }
-        #menu, #menu1 {
-            margin: 20px 0;
-        }
-        #menu ul, #menu1 ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        #menu ul li, #menu1 ul li {
-            margin: 10px 0;
-        }
-        #menu ul li a, #menu1 ul li a {
-            color: black;
-            text-decoration: none;
-            display: block;
-            padding: 10px;
-            background-color: #e0e0e0;
-            border-radius: 5px;
-        }
-        #menu ul li a:hover, #menu1 ul li a:hover {
-            background-color: #d0d0d0;
-        }
-        #main {
-            margin-left: 260px;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        p.tag {
-            font-size: 16px;
-            color: #666;
-            line-height: 1.6;
-        }
-        #awards ol {
-            padding-left: 20px;
-        }
-        #awards ol li {
-            margin: 10px 0;
-            font-size: 16px;
-            color: #555;
-        }
-        #social {
-            margin: 20px 0;
-        }
-        #social img {
-            width: 30px;
-            margin-right: 10px;
-        }
-        @media screen and (max-width: 768px) {
-            #leftcont {
-                width: 100%;
-                height: auto;
-                text-align: center;
-            }
-            #main {
-                margin-left: 0;
-                padding: 10px;
-            }
-        }
-    </style>
+<title>Homepage of Cuitian Peng</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<script type="text/javascript" src="js/jquery-1.7.js"></script>
+<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
+<!--[if IE 6]> <link rel="stylesheet" type="text/css" href="css/ie.css" /> <![endif]-->
+<script type="text/javascript">
+$(function() {
+    $(".gallery").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev"
+    });
+});
+</script>
 </head>
 <body>
-    <div id="leftcont">
-        <div id="leftimg">
-            <a title="home" href="index.html">
-                <img alt="Cuitian Peng" src="images/cuitianpeng.jpg">
-            </a>
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="project.html">Projects</a></li>
-            </ul>
-        </div>
-        <div id="menu1">
-            <ul>
-                <li><a href="Myopia Retina.html">Myopia Retina</a></li>
-                <li><a href="Alzheimer's.html">Alzheimer's</a></li>
-                <li><a href="A Detection Method.html">A Detection Method</a></li>
-                <li><a href="Effects of resveratrol.html">Resveratrol</a></li>
-            </ul>
-        </div>
-        <div id="menu">
-            <ul>
-                <li><a href="Files/Cuitian PENG-CV-Revised 1018.pdf">Biography</a></li>
-            </ul>
-        </div>
-    </div>
 
-    <div id="main">
-        <div id="social">
-            <a href="https://github.com/CuitianPeng">
-                <img src="images/github.png" alt="GitHub">
-            </a>
+
+
+<div id="leftcont">
+	<div id="leftimg"><a title="home" href="index.html"><img alt="image description" src="images/cuitianpeng.jpg" /></a></div>
+	<div id="menu">
+		<ul>
+			<li><a title="link one" href="index.html">Home</a></li>
+			<li><a title="link three" href="project.html">Projects</a></li>
+		</ul>
+	</div>
+  <div id="menu1">
+    <ul>
+		<li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
+		<li><a title="link five" href="AD.html">Alzheimer's</a></li>
+		<li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
+	    <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li>
+    </ul>
+  </div>
+  <div id="menu">
+    <ul>
+      <li><a href="Files/cuitianpeng-cv-en.pdf">Biography</a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="main" >
+	<div id="social"> 
+    <a href="https://github.com/CuitianPeng1999"> <img src="images/github.png" alt="" /></a>
+	</div> 
+	<div class="clr"></div>
         </div>
         <h1>Cuitian Peng</h1>
         <p class="tag">I got my master's degree from <a href="https://www.ucas.ac.cn/">University of Chinese Academic of Sciences</a> in July 2024. 
