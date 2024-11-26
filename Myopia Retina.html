@@ -1,143 +1,95 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>Homepage of Cuitian Peng</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.7.js"></script>
-<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
-<!--[if IE 6]> <link rel="stylesheet" type="text/css" href="css/ie.css" /> <![endif]-->
-<script type="text/javascript">
-$(function() {
-    $(".gallery").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev"
-    });
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage of Cuitian Peng</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-1.7.js"></script>
+    <script src="js/jcarousellite_1.0.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".gallery").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev"
+            });
+        });
+    </script>
 </head>
+
 <body>
+    <div id="leftcont">
+        <div id="leftimg">
+            <a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a title="link one" href="index.html">Home</a></li>
+                <li><a title="link three" href="project.html">Projects</a></li>
+            </ul>
+        </div>
+        <div id="menu1">
+            <ul>
+                <li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
+                <li><a title="link seven" href="AD.html">Alzheimer's</a></li>
+                <li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
+                <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li>
+            </ul>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="Files/Monica CV Final.pdf">Biography</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <div id="main">
+        <div id="social">
+            <a href="https://github.com/CuitianPeng24.ucl"><img src="images/github.png" alt="GitHub" /></a>
+        </div>
+        <div class="clr"></div>
 
-
-<div id="leftcont">
-	<div id="leftimg"><a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a></div>
-	<div id="menu">
-		<ul>
-			<li><a title="link one" href="index.html">Home</a></li>
-			
-			<li><a title="link three" href="project.html">Projects</a></li>
-		</ul>
-	</div>
-  <div id="menu1">
-    <ul>
-		<li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
-	  <li><a title="link seven" href="AD.html">AlZHEIMER's</a></li>  
-		<li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
-	  <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li> 
-      	<!-- <li><a title="link six" href="GRIP.html">GRIP</a></li> -->
-    </ul>
-  </div>
-  <div id="menu">
-    <ul>
-      <li><a href="Files/Cuitian PENG-CV-Revised 1018.pdf">Biography</a></li>
-    </ul>
-  </div>
-</div>
-
-<div id="main" >
-	<div id="social"> 
-    <a href="https://github.com/CuitianPeng24.ucl"> <img src="images/github.png" alt="" /></a>
-	</div> 
-	<div class="clr"></div>
-
-	<h1>Analyzing molecular changes in the retina of chick myopia model using spatial and single-cell transcriptomics.</h1>
-    
-    <p>
-          Myopia is a significant public health concern in China, where early risk warning plays a crucial role in its prevention and control. Studies have shown a close relationship between the age of onset of myopia and its severity: the younger the age at which myopia begins, the longer its progression, the faster its rate, and the higher the final degree of myopia in adulthood. Therefore, the key lies in early risk warning, precise and efficient screening, and timely and appropriate intervention. The retina, as the primary responder to myopia induction, plays an important role in the progression of myopia. Changes in retinal function during the early stages of myopia may differ from those at the onset, and the stress response to myopia induction may vary among different cell types and subtypes, as well as different structural regions of the retina.
-          <p>
-	  This study employs spatial transcriptomics and single-cell transcriptomics to compare changes across different cell types and subtypes from the early to the late stages of myopia. By analyzing the differences in gene expression and cell interactions between myopic and normal retinas at the cellular and spatial levels, we found that the retinal phototransduction pathway tends to be upregulated in the early stages of myopia but shows the opposite trend in the later stages. Moreover, photoreceptor cells and subtypes of cones that receive red light may be the most affected cell types during the progression of myopia. Comparing the effects of myopia on different retinal structural regions revealed that the central area of the retina might be the most affected region. These findings provide a theoretical basis for proposing new early intervention treatment strategies and contribute to the early prevention and precise treatment of myopia. Additionally, this study explores the spatial expression characteristics of human myopia-related pathogenic genes in the chicken retina, providing theoretical support for the use of chicken models in myopia treatment research.
-          This revised abstract maintains the scientific integrity and professionalism of the original text while enhancing the coherence and logical flow of the content in English.
-    </p>
-
-    <h2> Technical Route </h2>
-	</p>
-	<center><img src="images/MyopiaTech.png" alt="La2Ti2O7" height="400" align="middle"/></center>
-	<p>
-
-    <h2>Data Quality Control of ScRNA-Seq (15 samples) </h2>
-        </p>
-	<center><img src="images/SingleCellData.png" alt="La2Ti2O7" height="400" align="middle"/></center>
-			
+        <h1>Analyzing molecular changes in the retina of chick myopia model using spatial and single-cell transcriptomics.</h1>
+        
         <p>
-		
-    <h2>Data Quality Control of StRNA-Seq (9 samples) </h2>
+            Myopia is a significant public health concern in China, where early risk warning plays a crucial role in its prevention and control. Studies have shown a close relationship between the age of onset of myopia and its severity: the younger the age at which myopia begins, the longer its progression, the faster its rate, and the higher the final degree of myopia in adulthood. Therefore, the key lies in early risk warning, precise and efficient screening, and timely and appropriate intervention. The retina, as the primary responder to myopia induction, plays an important role in the progression of myopia. Changes in retinal function during the early stages of myopia may differ from those at the onset, and the stress response to myopia induction may vary among different cell types and subtypes, as well as different structural regions of the retina.
         </p>
-	<center><img src="images/SpatialData.png" alt="La2Ti2O7" height="400" align="middle"/></center>
-			
+
+        <h2>Technical Route</h2>
+        <center><img src="images/MyopiaTech.png" alt="Technical Route" height="400" align="middle"/></center>
+
+        <h2>Data Quality Control of ScRNA-Seq (15 samples) and Spatial Transcriptomics data (9 samples)</h2>
+        <center><img src="images/QC.png" alt="Quality Control" height="400" align="middle"/></center>
+
+        <h2>Single Cell Atlas of Chick Retina</h2>
+        <center><img src="images/SC-Atlas.png" alt="Single Cell Atlas" height="400" align="middle"/></center>
+
+        <h2>First Spatial Single Cell Atlas of Chick Retina</h2>
+        <center><img src="images/ST-Atlas.png" alt="Spatial Single Cell Atlas" height="400" align="middle"/></center>
+
+        <h2>Key Functional Pathways in Myopia</h2>
         <p>
-		</li>
-
-    <h2>Altas of Chick Retina </h2>
+            After identifying overlapping DEGs (differentially expressed genes) in single-cell and spatial transcriptomics, performing functional enrichment analysis, and validation, I discovered pathways associated with the progression of myopia, which exhibit cell-specific expression.
         </p>
-	<center><img src="images/RetinaAltas.png" alt="La2Ti2O7" height="400" align="middle"/></center>
-			
+        <center><img src="images/KeyPathway.png" alt="Key Functional Pathways" height="400" align="middle"/></center>
+
+        <h2>Changes in Retina Function in Peripheral Retina and Central Retina</h2>
         <p>
-		</li>
+            Leveraging the advantages of spatial transcriptomics, I quantified the number of DEGs in the central and peripheral regions of the retina and analyzed the expression levels of key molecular pathways in different retinal regions. This revealed that the central retina has a significantly greater impact on myopia compared to the peripheral region.
+        </p>
+        <center><img src="images/Central-vitalpart.png" alt="Central Retina Impact" height="500" align="middle"/></center>
 
-    <h2>Functional Pathways in Myopia</h2>
-	</p>
-	In my data, it is observed that within the photoreceptor cells, the Visual Perception pathway and the Phototransduction pathway are upregulated in the pre-myopic stage, while they are downregulated in the myopic stage. This suggests a differential regulation of these pathways during the progression of myopia.
+        <h2>Discussion</h2>
         <p>
-		
+            This study revealed critical pathways and cell-specific responses involved in myopia progression, highlighting the central retina's predominant role over the peripheral region. The spatial and single-cell transcriptomics approach provided unprecedented insights into the molecular mechanisms driving myopia, enabling identification of potential intervention targets. Key pathways, including the WNT pathway in Müller glial cells and ON/OFF signaling in bipolar cells, were identified as critical modulators in the myopia process, suggesting their relevance in early risk screening and targeted treatments. Furthermore, the validation of the chick model with human myopia-related genes underscores its applicability in translational research, paving the way for precision therapy development.
         </p>
-        <center><img src="images/Visual.png" alt="La2Ti2O7" height="400" align="middle"/></center>		
-        <p>
-		
-	</p>
-	By comparing with the control group’s receptor intensity, it was found that in the retinal bipolar cells, the ON pathway is upregulated in the pre-myopic stage and downregulated in the myopic stage. Conversely, the OFF pathway shows the opposite trend. My hypothesis is that the ON pathway inhibits the onset of myopia, while the OFF pathway promotes the development of myopia.
-	<p>
-        </p>
-        <center><img src="images/OnOff.png" alt="La2Ti2O7" height="600" align="middle"/></center>		
-        <p>
-       </li>
-	
-    <h2>Changes in Retina Function in Peripheral retina and Central retina </h2>
-	</p>
-	Retinal regional division
-	<p>
-        </p>
-	<center><img src="images/Region.png" alt="La2Ti2O7" height="500" align="middle"/></center>
-	<p>
-	</p>
-	Comparisons were made of the affected pathways within the phototransduction pathway across different regions, revealing that the central region of the retina is the area most impacted during the development of myopia.
-	<p>
-	</p>
-	<center><img src="images/VisualRegion.png" alt="La2Ti2O7" height="500" align="middle"/></center>
-	<p>
-        </p>
-        Comparisons were made of the changes in the ON and OFF pathways across different regions, and it was found that the alterations occurring in the central region of the retina were the most pronounced.
-	<p>
-        </p>
-	<center><img src="images/OnOffRegion.png" alt="La2Ti2O7" height="300" align="middle"/></center>
-	<p>
-	
 
-
-	<h2>Publications</h2>
-	<ol>
-		<li>
-			<p>In Submission.
-		</p>
-			
-
-		</li>
-		
-	</ol>
-
-
-</div>
-
+        <h2>Publications</h2>
+        <ol>
+            <li>Submitted. </li>
+        </ol>
+    </div>
 </body>
+
 </html>
