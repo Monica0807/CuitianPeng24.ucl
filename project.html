@@ -1,70 +1,88 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>Homepage of Cuitian Peng</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.7.js"></script>
-<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
-<!--[if IE 6]> <link rel="stylesheet" type="text/css" href="css/ie.css" /> <![endif]-->
-<script type="text/javascript">
-$(function() {
-    $(".gallery").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev"
-    });
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Cuitian Peng</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-1.7.js"></script>
+    <script src="js/jcarousellite_1.0.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".gallery").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev"
+            });
+        });
+    </script>
 </head>
+
 <body>
+    <div id="leftcont">
+        <div id="leftimg">
+            <a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a title="link one" href="index.html">Home</a></li>
+                <li><a title="link three" href="project.html">Projects</a></li>
+            </ul>
+        </div>
+        <div id="menu1">
+            <ul>
+                <li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
+                <li><a title="link seven" href="AD.html">Alzheimer's</a></li>
+                <li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
+                <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li>
+            </ul>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="Files/Monica CV Final.pdf">Biography</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <div id="main">
+        <div id="social">
+            <a href="https://github.com/CuitianPeng24.ucl"><img src="images/github.png" alt="GitHub" /></a>
+        </div>
+        <div class="clr"></div>
 
+        <h1>Projects</h1>
+        <p>
+            My research topics include isolation of waterfowl pathogens and pathogenic mechanisms, neurodegenerative diseases, retinal diseases, bioinformatics, genomics, and transcriptomics.
+        </p>
 
-<div id="leftcont">
-	<div id="leftimg"><a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a></div>
-	<div id="menu">
-		<ul>
-			<li><a title="link one" href="index.html">Home</a></li>
-			
-			<li><a title="link three" href="project.html">Projects</a></li>
-		</ul>
-	</div>
-  <div id="menu1">
-    <ul>
-		<li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
-	  <li><a title="link seven" href="AD.html">AlZHEIMER's</a></li>  
-		<li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
-	  <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li> 
-      	<!-- <li><a title="link six" href="GRIP.html">GRIP</a></li> -->
-    </ul>
-  </div>
-  <div id="menu">
-    <ul>
-      <li><a href="Files/Monica CV Final.pdf">Biography</a></li>
-    </ul>
-  </div>
-</div>
+        <section>
+            <h2><a href="Myopia Retina.html">Analyzing molecular changes in the retina of chick myopia model using spatial and single-cell transcriptomics</a></h2>
+            <p>
+                This project explores the molecular pathways involved in myopia progression using spatial and single-cell transcriptomic technologies.
+            </p>
+        </section>
 
-<div id="main" >
-	<div id="social"> 
-    <a href="https://github.com/CuitianPeng24.ucl"> <img src="images/github.png" alt="" /></a>
-	</div> 
-	<div class="clr"></div>
+        <section>
+            <h2><a href="AD.html">Single-cell spatial transcriptomics in human brains of Alzheimer’s disease reveals neuronal subtypes that promote Aβ deposition </a></h2>
+            <p>
+                This study utilizes single-cell spatial transcriptomics to identify specific neuronal subtypes in Alzheimer’s disease that overexpress key genes promoting Aβ deposition, providing insights into the spatial and cellular mechanisms of the disease.
+            </p>
+        </section>
 
-	<h1>Projects</h1>
-    
-  <p>
-    Research Topic Includes: Isolation of waterfowl pathogens and pathogenic mechanisms, Neurodegenerative diseases, Retina diseases, Bioinformatics, Genomics, Transcriptomics.
-  </p>
-	
-	<h2><a href="Myopia Retina.html">Analysing molecular changes in the retina of chick myopia model using spatial and single-cell transcriptomics. </a></h2>
-	<h2><a href="Alzheimer's.html">A Human Cerebral Single-Cell Spatial Atlas of Alzheimer's Disease.</a></h2>
-	<h2><a href="A Detection Method.html">Establishment of RPA-LFD visual detection method for animal influenza A virus.</a></h2>
-	<h2><a href="Effects of resveratrol.html">Effects of resveratrol on antioxidant capacity and apoptosis of duck liver under acute heat stress conditions.</a></h2>
-  <!-- <h2><a href="GRIP.html">Explaining Missing Data in Graphs (GRIP)</a></h2> -->
+        <section>
+            <h2><a href="A Detection Method.html">Establishment of RPA-LFD visual detection method for animal influenza A virus</a></h2>
+            <p>
+                A rapid and sensitive diagnostic tool for influenza A virus in animals using RPA-LFD technology.
+            </p>
+        </section>
 
-</div>
-
+        <section>
+            <h2><a href="Effects of resveratrol.html">Effects of resveratrol on antioxidant capacity and apoptosis of duck liver under acute heat stress conditions</a></h2>
+            <p>
+                Investigation of resveratrol’s protective effects against oxidative stress and apoptosis in waterfowl under heat stress.
+            </p>
+        </section>
+    </div>
 </body>
+
 </html>
