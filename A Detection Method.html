@@ -1,111 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>Homepage of Cuitian Peng</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.7.js"></script>
-<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
-<!--[if IE 6]> <link rel="stylesheet" type="text/css" href="css/ie.css" /> <![endif]-->
-<script type="text/javascript">
-$(function() {
-    $(".gallery").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev"
-    });
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage of Cuitian Peng</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-1.7.js"></script>
+    <script>
+        $(function() {
+            $(".gallery").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev"
+            });
+        });
+    </script>
 </head>
+
 <body>
+    <div id="leftcont">
+        <div id="leftimg">
+            <a title="home" href="index.html"><img alt="Homepage" src="images/Photo.png" /></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a title="Home" href="index.html">Home</a></li>
+                <li><a title="Projects" href="project.html">Projects</a></li>
+            </ul>
+        </div>
+        <div id="menu1">
+            <ul>
+                <li><a title="Myopia Retina" href="Myopia Retina.html">Myopia Retina</a></li>
+                <li><a title="Alzheimer's" href="AD.html">Alzheimer's</a></li>
+                <li><a title="Detection Method" href="A Detection Method.html">A Detection Method</a></li>
+                <li><a title="Resveratrol" href="Effects of resveratrol.html">Resveratrol</a></li>
+            </ul>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="Files/Monica CV Final.pdf">Biography</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <div id="main">
+        <div id="social">
+            <a href="https://github.com/CuitianPeng24.ucl"><img src="images/github.png" alt="GitHub Profile" /></a>
+        </div>
+        <div class="clr"></div>
 
+        <h1>Establishment of RPA-LFD Detection Method for Animal Influenza A Virus</h1>
+        <p>
+            This study established a recombinant polymerase amplification-lateral flow dipstick (RPA-LFD) method to detect animal influenza A virus (IAV) by targeting the conserved sequence of the matrix protein (M) gene. The optimized method demonstrated high specificity, accurately distinguishing IAV from other viruses such as Newcastle disease virus and duck hepatitis virus. It also achieved rapid detection (within 20 minutes at 35°C) with a sensitivity of 10 copies/μL. When tested on 50 duck pharyngeal swabs, the RPA-LFD method identified positive samples with results consistent with PCR and virus isolation, validating its reliability. This efficient and equipment-free method shows promise for clinical diagnostics and epidemiological research in basic laboratories.
+        </p>
 
-<div id="leftcont">
-	<div id="leftimg"><a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a></div>
-	<div id="menu">
-		<ul>
-			<li><a title="link one" href="index.html">Home</a></li>
-			
-			<li><a title="link three" href="project.html">Projects</a></li>
-		</ul>
-	</div>
-  <div id="menu1">
-    <ul>
-		<li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
-	  <li><a title="link seven" href="AD.html">AlZHEIMER's</a></li>  
-		<li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
-	  <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li> 
-      	<!-- <li><a title="link six" href="GRIP.html">GRIP</a></li> -->
-    </ul>
-  </div>
-  <div id="menu">
-    <ul>
-      <li><a href="Files/Cuitian PENG-CV-Revised 1018.pdf">Biography</a></li>
-    </ul>
-  </div>
-</div>
+        <h2>Primer Selection</h2>
+        <p>
+            Step 1: Screening highly conserved regions of the IAV VP3 gene using GenBank. <br>
+            Step 2: Optimizing LF probes and RPA primers through experiments and testing.
+        </p>
+        <center><img src="images/System-all0.png" alt="Primer Selection" height="400" align="middle"/></center>
 
-<div id="main" >
-	<div id="social"> 
-    <a href="https://github.com/CuitianPeng24.ucl"> <img src="images/github.png" alt="" /></a>
-	</div> 
-	<div class="clr"></div>
+        <h2>Establishing the Detection Method</h2>
+        <p>
+            Step 1: Combining RPA reaction with vertical flow (VF) test strips to establish a detection system for animal IAV. <br>
+            Step 2: Optimizing reaction temperature and time, assessing specificity and sensitivity, and comparing results with traditional PCR and qPCR methods.
+        </p>
+        <center><img src="images/System-all1.png" alt="Detection System" height="400" align="middle"/></center>
+        <center><img src="images/System-all2.png" alt="Optimization Process" height="400" align="middle"/></center>
 
-	<h1>Establishment of RPA-LFD visual detection method for animal influenza A virus</h1>
-    
-    <p>
-		The study aimed to establish a recombinant polymerase amplification-lateral flow dipstick (RPA-LFD) detection method for animal influenza A virus (IAV). The method utilized primers and probes designed based on the conserved sequence of the matrix protein (M) gene of IAV. The researchers optimized the reaction conditions, specificity, and sensitivity of the RPA-LFD method. The experimental results demonstrated that the RPA-LFD method specifically detected animal IAV without cross-reactivity with other viruses such as Newcastle disease virus, duck Tembusu virus, duck hepatitis virus, and gosling plague virus. This indicates a high level of specificity for the detection method. The method also showed a short reaction time and high sensitivity, as it was able to detect a plasmid standard with a minimum concentration of 10 copies/μL within 20 minutes at 35℃.To validate the method, 50 samples of duck pharyngeal swabs collected from a live poultry market were tested. The RPA-LFD method correctly identified 3 positive samples and the remaining samples as negative, which was consistent with the results obtained from PCR and virus isolation methods. This indicates the high accuracy of the established method. In conclusion, this study successfully established a visual RPA-LFD detection method for animal IAV. The method does not require any specialized instruments or equipment, making it easy to operate and rapid in detection. It has the potential to be used for rapid clinical detection and epidemiological research in basic laboratories. 	</p>
+        <h2>Preliminary Testing of Clinical Samples</h2>
+        <p>
+            Testing 60 clinical samples from Guangzhou and Qingyuan farms showed consistent results between RPA-VF and qPCR methods. Both methods identified 2 samples as N-GPV positive and 6 as GPV positive.
+        </p>
+        <center><img src="images/System-all3.png" alt="Clinical Testing Results" height="500" align="middle"/></center>
 
-    <h2> Primer selection </h2>
-	<p>
-		First Step, Screening and selection of highly conserved regions of GPV VP3 gene using GenBank.
-	</p>
-		Second Step,Screening the optimal LF probe and RPA primers through experiments and testing.
- 
-	</p>
-
-	<center><img src="images/System-all0.png" alt="KGSum Example" height="400" align="middle"/></center>
-
-	</p>
-
-	<h2>Establishing the Detection Method</h2>
-	<p>
-		First Step, Combining RPA reaction with vertical flow (VF) test strips to establish a detection system for goose parvovirus
-	</p>
-	
-	<center><img src="images/System-all1.png" alt="KGSum Example" height="400" align="middle"/></center>
-
-	</p>
-		Second Step,Determine the optimal temperature and time for the reaction, assess specificity and sensitivity, and compare with traditional PCR and qPCR methods
-	</p>
-	
-	<center><img src="images/System-all2.png" alt="KGSum Example" height="400" align="middle"/></center>
-
-
-	</p>
-	
-	<h2> Preliminary Testing of Clinical Samples </h2>
-	<p>
-		Testing 60 clinical blood samples from Guangzhou and Qingyuan farms and comparing the detection rates with qPCR.
-		
-	</p>	
-	<center><img src="images/System-all3.png" alt="KGSum Example" height="500" align="middle"/></center>
-	</p>
-	        Results:Consistent findings between RPA-VF and qPCR.
-	</p>
-	        2 samples were detected as N-GPV positive and 6 samples were detected as GPV positive using both methods.Simultaneous detection was performed using qPCR and RPA-VF. 
-	</p>
-	
-	<h2>Awards</h2>
-	<ul>
-
-		<li>
-			Received First Prize of The First Guangdong Province Undergraduate Animal Production College Student Innovation and Design Competition, 2021
-		</li>
-	</ul>
-
-</div>
-
+        <h2>Awards</h2>
+        <ul>
+            <li>First Prize, The First Guangdong Province Undergraduate Animal Production College Student Innovation and Design Competition, 2021</li>
+        </ul>
+    </div>
 </body>
+
 </html>
