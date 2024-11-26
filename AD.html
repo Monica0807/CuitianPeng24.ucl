@@ -1,114 +1,91 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<title>Homepage of Cuitian Peng</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<script type="text/javascript" src="js/jquery-1.7.js"></script>
-<script type="text/javascript" src="js/jcarousellite_1.0.1.min.js"></script>
-<!--[if IE 6]> <link rel="stylesheet" type="text/css" href="css/ie.css" /> <![endif]-->
-<script type="text/javascript">
-$(function() {
-    $(".gallery").jCarouselLite({
-        btnNext: ".next",
-        btnPrev: ".prev"
-    });
-});
-</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage of Cuitian Peng</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/jquery-1.7.js"></script>
+    <script src="js/jcarousellite_1.0.1.min.js"></script>
+    <script>
+        $(function() {
+            $(".gallery").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev"
+            });
+        });
+    </script>
 </head>
+
 <body>
+    <div id="leftcont">
+        <div id="leftimg">
+            <a title="home" href="index.html"><img alt="Homepage" src="images/Photo.png" /></a>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a title="Home" href="index.html">Home</a></li>
+                <li><a title="Projects" href="project.html">Projects</a></li>
+            </ul>
+        </div>
+        <div id="menu1">
+            <ul>
+                <li><a title="Myopia Retina" href="Myopia Retina.html">Myopia Retina</a></li>
+                <li><a title="Alzheimer's" href="AD.html">Alzheimer's</a></li>
+                <li><a title="A Detection Method" href="A Detection Method.html">A Detection Method</a></li>
+                <li><a title="Resveratrol" href="Effects of resveratrol.html">Resveratrol</a></li>
+            </ul>
+        </div>
+        <div id="menu">
+            <ul>
+                <li><a href="Files/Monica CV Final.pdf">Biography</a></li>
+            </ul>
+        </div>
+    </div>
 
+    <div id="main">
+        <div id="social">
+            <a href="https://github.com/CuitianPeng24.ucl"><img src="images/github.png" alt="GitHub Profile" /></a>
+        </div>
+        <div class="clr"></div>
 
+        <h1>Single-cell Spatial Transcriptomics in Human Brains of Alzheimer’s Disease</h1>
+        <p>
+            Alzheimer’s disease (AD) is the leading cause of dementia, accounting for 60-70% of all dementia cases worldwide. Despite numerous hypotheses about the pathogenesis of AD, the exact mechanisms remain unclear, and effective treatments are lacking. 
+            This study performed high-resolution (0.5 μm) single-cell spatial transcriptome analysis on postmortem AD and control brains, mapping 6.52 million cells across five cerebral regions. A novel neuronal subtype (AβC neurons) was identified, which overexpresses APP, BACE1, and neurodegeneration-associated genes and is spatially located prior to Aβ plaque deposition. These findings offer valuable insights into the cellular mechanisms of AD and potential targets for cell-specific therapies.
+        </p>
 
-<div id="leftcont">
-	<div id="leftimg"><a title="home" href="index.html"><img alt="image description" src="images/Photo.png" /></a></div>
-	<div id="menu">
-		<ul>
-			<li><a title="link one" href="index.html">Home</a></li>
-			
-			<li><a title="link three" href="project.html">Projects</a></li>
-		</ul>
-	</div>
-  <div id="menu1">
-    <ul>
-		<li><a title="link four" href="Myopia Retina.html">Myopia Retina</a></li>
-	  <li><a title="link seven" href="AD.html">AlZHEIMER's</a></li>  
-		<li><a title="link six" href="A Detection Method.html">A Detection Method</a></li>
-	  <li><a title="link seven" href="Effects of resveratrol.html">Resveratrol</a></li> 
-      	<!-- <li><a title="link six" href="GRIP.html">GRIP</a></li> -->
-    </ul>
-  </div>
-  <div id="menu">
-    <ul>
-      <li><a href="Files/Cuitian PENG-CV-Revised 1018.pdf">Biography</a></li>
-    </ul>
-  </div>
-</div>
+        <h2>Technical Route</h2>
+        <center><img src="images/AD-Techroute.png" alt="Technical Route" height="200" align="middle"/></center>
 
-<div id="main" >
-	<div id="social"> 
-    <a href="https://github.com/CuitianPeng24.ucl"> <img src="images/github.png" alt="" /></a>
-	</div> 
-	<div class="clr"></div>
+        <h2>My Contribution</h2>
+        <p>
+            My contributions to this project include sample collection, sample preprocessing, conducting experiments, developing the Aβ plaque identification program, and writing the methods section of the manuscript.
+        </p>
 
-	<h1>A Human Cerebral Single-Cell Spatial Atlas of Alzheimer's Disease.</h1>
-    
-    <p>
-		 Alzheimer’s disease (AD) is the most common cause of dementia, estimated to account for 60-70% of all dementia cases worldwide. Currently, there are many hypotheses regarding the pathogenesis of AD, but the exact mechanisms remain unknown and treatment options are severely lacking. This project aims to investigate the pathologic microenvironment of the AD brain in order to unravel the disease. The study will utilize state-of-the-art spatial transcriptomics technology to establish methods for characterizing pathological features and microenvironmental indicators. Through these methods, we will explore the spatiotemporal interactions between pathological features and surrounding microenvironment components such as neurons, glial cells, and blood vessels, to elucidate their impact on core pathological changes in AD, including neuronal damage, neuroinflammation, and metabolic disturbances. The research findings of this project will contribute to the establishment of a new generation of neuropathology analysis tools, providing new insights into the disease mechanisms of major brain disorders such as AD. By delving into the pathologic microenvironment of the AD brain, we hope to make breakthroughs and advancements in the diagnosis and treatment of this disease.
-   </p>
+        <center><img src="images/ClassifyA-beta.png" alt="Aβ Plaque Classification" height="200" align="middle"/></center>
+        <center><img src="images/microenvironment.png" alt="Aβ Plaque Microenvironment" height="200" align="middle"/></center>
+        <center><img src="images/CellDensity.png" alt="Cell Density Analysis" height="200" align="middle"/></center>
 
-    <h2> Technical Route </h2>
-	</p>
-	<center><img src="images/AD1.png" alt="La2Ti2O7" height="400" align="middle"/></center>
-	<p>
-		Data Analysis Includes:
-		<p>
-		1.Clustering and Classification with Seurat
-		<p>
-		2.Cell-type deconvolution with Cell2loc
-		<p>
-		3.Differential gene expression (DGE) analysis with Deseq2
-		<p>
-		4.Cellular Communication Analysis with CellChat and NeuronChat
-		<p>
-		5.Cell Trajectory Analysis with Scanpy and Monocle2
-		<p>
-		6.Enrichment Analysis with GO and KEGG
-		<p>
-		7.Calculating module scores with AddModuleScore
-		<p>
-		8.Visualization
-		<p>
-		9.else(Progressing……)
-		<p>
+        <h2>Publications</h2>
+        <ol>
+            <li>
+                Hui Wei, Yuanwei Zhang, Jianbo Xiu, Yi Yang, Bingnan Li, Cuitian Peng, et al. 
+                <em>Single-cell spatial transcriptomics in human brains of Alzheimer’s disease reveals neuronal subtypes that promote Aβ deposition</em>. 
+                Under review at <em>Cell</em>.
+            </li>
+        </ol>
 
-	</p>
-
-
-	<h2>Publications</h2>
-	<ol>
-		<li>
-			<p>In Submission.
-		</p>
-			
-
-		</li>
-		
-	</ol>
-
-	<h2>Patent</h2>
-	<ol>
-		<li>
-	<p>A Method for Freezing and Embedding Brain Tissue. CN202311363954.4. </p> 
-			<p>Chinese Patent (CN), 2023.10</p> 
-			<p>QiXu, HuiWei, NingyuanZhu, Cuitian Peng</p>
-			</li>
-		
-	</ol>
-
-
-</div>
-
+        <h2>Patent</h2>
+        <ol>
+            <li>
+                <p>A Method for Freezing and Embedding Brain Tissue. CN202311363954.4</p> 
+                <p>Chinese Patent (CN), 2023.10</p> 
+                <p>Qi Xu, Hui Wei, Ningyuan Zhu, Cuitian Peng</p>
+            </li>
+        </ol>
+    </div>
 </body>
+
 </html>
